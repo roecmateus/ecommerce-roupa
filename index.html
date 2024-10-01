@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- PRIMARY META TAGS-->
+
+    <title>Sunset Wear - Coleção Masculina de Verão</title>
+    <meta name="title" content="Sunset Wear - O verão começa aqui" />
+    <meta
+      name="description"
+      content="Este é um modelo HTML de eCommerce feito por Mateus Roec"
+    />
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- GOOGLE FONT LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./assets/fonts/font.css" />
+
+    <!-- CUSTOM CSS LINK -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- PRELOAD IMAGES -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.png" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="132"
+            height="27"
+            alt="sunsetwear home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <ul class="navbar-list">
+            <li>
+              <a href="#" class="navbar-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Portfólio</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link">Loja</a>
+            </li>
+          </ul>
+
+          <button class="card-btn">
+            <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+            <span class="span">Cart (02)</span>
+          </button>
+
+          <a href="#" class="btn">Entre em Contato</a>
+        </nav>
+
+        <button class="nav-open-btn" aria-label="toggle menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- HERO -->
+
+        <div class="hero">
+          <div class="container">
+            <div class="hero-content">
+              <p class="hero-subtitle title">R$120,00</p>
+
+              <h1 class="h1 hero-title title">
+                Coleção Masculina <br />
+                de Verão
+              </h1>
+
+              <p class="hero-text">
+                Este é o fator que nos diferencia da concorrência e nos permite
+                oferecer um serviço especializado. Nossa equipe de especialistas
+                aplica sua ampla experiência na determinação.
+              </p>
+
+              <a href="#" class="btn btn-primary">
+                <span class="span">Compre Agora!</span>
+
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </a>
+            </div>
+
+            <div class="hero-banner">
+              <figure class="img-holder" style="--width: 704; --height: 700">
+                <img
+                  src="./assets/images/hero-banner.png"
+                  width="704"
+                  height="700"
+                  alt="hero banner"
+                  class="img-cover"
+                />
+              </figure>
+
+              <img
+                src="./assets/images/hero-shape-1.png"
+                width="255"
+                height="249"
+                alt="shape"
+                class="shape shape-1"
+              />
+
+              <img
+                src="./assets/images/hero-shape-2.png"
+                width="360"
+                height="133"
+                alt="shape"
+                class="shape shape-2"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- PRODUCTS -->
+
+        <section class="section product" aria-label="product">
+          <div class="container">
+            <h2 class="h2 section-title title text-center">Ver novidades!</h2>
+
+            <ul class="product-list has-scrollbar">
+              <li class="scrollbar-item">
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="./assets/images/product-1.png"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Camisa de Manga Curta"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Adicionar ao Carrinho</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h4 title">
+                      <a href="#" class="card-title">Camisa de Manga Curta</a>
+                    </h3>
+
+                    <span class="price">R$170,00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="./assets/images/product-2.png"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Óculos de Sol Marrom"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Adicionar ao Carrinho</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h4 title">
+                      <a href="#" class="card-title">Óculos de Sol Marrom</a>
+                    </h3>
+
+                    <span class="price">R$210,00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li class="scrollbar-item">
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="./assets/images/product-3.png"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Calça Cargo"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Adicionar ao Carrinho</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h4 title">
+                      <a href="#" class="card-title">Calça Cargo</a>
+                    </h3>
+
+                    <span class="price">R$90,00</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- FEATURE -->
+        <section class="section feature" aria-label="feature-label">
+          <div class="container">
+            <h2 class="h2 section-title title text-center" id="feature-label">
+              Produtos em Destaque
+            </h2>
+
+            <ul class="feature-list">
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="./assets/images/product-4.png"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Acne Baseball Cap"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Adicionar ao Carrinho</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Acne Baseball Cap</a>
+                    </h3>
+
+                    <span class="price">R$80,00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="./assets/images/product-5.png"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Camiseta de Manga Curta"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Adicionar ao Carrinho</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Camiseta de Manga Curta</a>
+                    </h3>
+
+                    <span class="price">R$170,00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="./assets/images/product-6.png"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Garcons Parfums"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Adicionar ao Carrinho</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Garcons Parfums</a>
+                    </h3>
+
+                    <span class="price">R$190,00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="./assets/images/product-7.png"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Salomon Sneakers"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Adicionar ao Carrinho</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Salomon Sneakers</a>
+                    </h3>
+
+                    <span class="price">R$450,00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="./assets/images/product-8.png"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Gorro Xadrez"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Adicionar ao Carrinho</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Gorro Xadrez</a>
+                    </h3>
+
+                    <span class="price">R$120,00</span>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="product-card text-center">
+                  <div class="card-banner">
+                    <figure
+                      class="product-banner img-holder"
+                      style="--width: 448; --height: 470"
+                    >
+                      <img
+                        src="./assets/images/product-9.png"
+                        width="448"
+                        height="470"
+                        loading="lazy"
+                        alt="Calça Caqui"
+                        class="img-cover"
+                      />
+                    </figure>
+
+                    <a href="#" class="btn product-btn">
+                      <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                      <span class="span">Adicionar ao Carrinho</span>
+                    </a>
+                  </div>
+
+                  <div class="card-content">
+                    <h3 class="h3 title">
+                      <a href="#" class="card-title">Calça Caqui</a>
+                    </h3>
+
+                    <span class="price">R$220,00</span>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <a href="#" class="btn btn-secondary">Ver todos os produtos</a>
+          </div>
+        </section>
+
+        <!-- OFFER -->
+
+        <section
+          class="offer has-bg-image"
+          style="background-image: url('./assets/images/offer-bg.png')"
+        >
+          <div class="container">
+            <div class="offer-card">
+              <h2 class="title card-title">35% OFF</h2>
+
+              <p class="card-text">
+                Este é o principal fator que nos diferencia da concorrência e
+                nos permite oferecer um serviço especializado de consultoria
+                para e-commerce de moda.
+              </p>
+
+              <a href="#" class="btn btn-secondary">
+                <span class="span">Compre agora!</span>
+              </a>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </div>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="footer-brand">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.svg"
+                width="132"
+                height="27"
+                loading="lazy"
+                alt="sunsetwear home"
+              />
+            </a>
+
+            <p class="footer-text">
+              Nosso diferencial no e-commerce é oferecer consultoria
+              especializada, aplicando nossa ampla experiência para otimizar
+              operações, melhorar a experiência do cliente e aumentar as vendas
+              das lojas online.
+            </p>
+
+            <ul class="social-list">
+              <li>
+                <a href="#" class="social-link"
+                  ><ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link"
+                  ><ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <p class="footer-list-title title">Informações de Contato</p>
+
+              <address class="footer-text">
+                Neal St, London WC2H 9PR<br />
+                United Kingdom
+              </address>
+            </li>
+
+            <li>
+              <a href="mailto:info.shoppie@support.com" class="email"
+                >info.shoppie@support.com</a
+              >
+            </li>
+
+            <li>
+              <a href="tel:+00 123 456 789" class="call">+00 123 456 789</a>
+            </li>
+          </ul>
+
+          <div class="footer-list">
+            <p class="footer-list-title title">
+              Inscreva-se na nossa Newsletter
+            </p>
+
+            <input
+              type="email"
+              name="email_adress"
+              placeholder="Insira seu Email"
+              required
+              autocomplete="off"
+              class="input-field"
+            />
+
+            <button class="btn btn-secondary">Inscrever</button>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="wrapper">
+            <div class="link-wrapper">
+              <a href="#" class="footer-bottom-link">Portfólio</a>
+              <a href="#" class="footer-bottom-link">Nossa Equipe</a>
+              <a href="#" class="footer-bottom-link">Plano de Preços</a>
+              <a href="#" class="footer-bottom-link">Serviços</a>
+              <a href="#" class="footer-bottom-link">Fale Conosco</a>
+            </div>
+
+            <div class="link-wrapper">
+              <a href="" class="footer-bottom-link">Termos e Condições</a>
+
+              <a href="" class="footer-bottom-link">Política de Privacidade</a>
+            </div>
+          </div>
+
+          <p class="copyright">
+            &copy; 2022 Mateus Roec, Todos os Direitos Reservados
+          </p>
+        </div>
+
+        <img
+          src="./assets/images/footer-shape-1.png"
+          width="245"
+          height="165"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-1"
+        />
+
+        <img
+          src="./assets/images/footer-shape-2.png"
+          width="138"
+          height="316"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-2"
+        />
+
+        <img
+          src="./assets/images/footer-shape-3.png"
+          width="346"
+          height="92"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-3"
+        />
+      </div>
+    </footer>
+
+    <!-- CUSTOM JS LINK -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- IONICON LINK -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
